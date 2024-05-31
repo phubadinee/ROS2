@@ -1,0 +1,29 @@
+[0.712s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/phubadine/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.988s] running develop
+[0.988s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.988s]   warnings.warn(
+[1.159s] running egg_info
+[1.159s] creating turtlebot3_example.egg-info
+[1.159s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.159s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.159s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.159s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.160s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.160s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.163s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.163s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.165s] running build_ext
+[1.165s] Creating /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1.166s] Installing turtlebot3_obstacle_detection script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.166s] Installing turtlebot3_patrol_client script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.166s] Installing turtlebot3_patrol_server script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.167s] Installing turtlebot3_position_control script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.167s] 
+[1.167s] Installed /home/phubadine/turtlebot3_ws/build/turtlebot3_example
+[1.167s] running symlink_data
+[1.167s] creating /home/phubadine/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[1.167s] creating /home/phubadine/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[1.167s] creating /home/phubadine/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.167s] symbolically linking /home/phubadine/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/phubadine/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.168s] symbolically linking /home/phubadine/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/phubadine/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[1.248s] Invoked command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/phubadine/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

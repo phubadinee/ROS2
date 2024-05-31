@@ -1,0 +1,22 @@
+[0.538s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs:/home/phubadine/turtlebot3_ws/install/turtlebot3:/home/phubadine/turtlebot3_ws/install/turtlebot3_simulations:/home/phubadine/turtlebot3_ws/install/turtlebot3_bringup:/home/phubadine/turtlebot3_ws/install/turtlebot3_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_navigation2:/home/phubadine/turtlebot3_ws/install/turtlebot3_fake_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_gazebo:/home/phubadine/turtlebot3_ws/install/turtlebot3_description:/home/phubadine/turtlebot3_ws/install/turtlebot3_cartographer:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_examples:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/phubadine/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.749s] running develop
+[0.749s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.749s]   warnings.warn(
+[0.889s] running egg_info
+[0.889s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.890s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.890s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.890s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.890s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.892s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.893s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.894s] running build_ext
+[0.894s] Creating /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.895s] Installing turtlebot3_obstacle_detection script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] Installing turtlebot3_patrol_client script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] Installing turtlebot3_patrol_server script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] Installing turtlebot3_position_control script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] 
+[0.895s] Installed /home/phubadine/turtlebot3_ws/build/turtlebot3_example
+[0.895s] running symlink_data
+[0.918s] Invoked command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs:/home/phubadine/turtlebot3_ws/install/turtlebot3:/home/phubadine/turtlebot3_ws/install/turtlebot3_simulations:/home/phubadine/turtlebot3_ws/install/turtlebot3_bringup:/home/phubadine/turtlebot3_ws/install/turtlebot3_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_navigation2:/home/phubadine/turtlebot3_ws/install/turtlebot3_fake_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_gazebo:/home/phubadine/turtlebot3_ws/install/turtlebot3_description:/home/phubadine/turtlebot3_ws/install/turtlebot3_cartographer:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_examples:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/phubadine/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

@@ -1,0 +1,58 @@
+[0.030s] Invoking command in '/home/phubadine/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/dynamixel_sdk
+[0.062s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Configuring done
+[0.380s] -- Generating done
+[0.380s] -- Build files have been written to: /home/phubadine/turtlebot3_ws/build/dynamixel_sdk
+[0.383s] Invoked command in '/home/phubadine/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/dynamixel_sdk
+[0.385s] Invoking command in '/home/phubadine/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/phubadine/turtlebot3_ws/build/dynamixel_sdk -- -j16 -l16
+[0.435s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.436s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.436s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.436s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.436s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.436s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.437s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.037s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.118s] [100%] Built target dynamixel_sdk
+[1.131s] Invoked command in '/home/phubadine/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/phubadine/turtlebot3_ws/build/dynamixel_sdk -- -j16 -l16
+[1.175s] Invoking command in '/home/phubadine/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/phubadine/turtlebot3_ws/build/dynamixel_sdk
+[1.182s] -- Install configuration: ""
+[1.182s] -- Execute custom install script
+[1.183s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.192s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.201s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.210s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.220s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.229s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.237s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.246s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.256s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.264s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.274s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.282s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.291s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.300s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.309s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.319s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.329s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.338s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.347s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.356s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.366s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.376s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.388s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.397s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.407s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.416s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.425s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.434s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.444s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.452s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.461s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.471s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.481s] -- Symlinking: /home/phubadine/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.494s] Invoked command in '/home/phubadine/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/phubadine/turtlebot3_ws/build/dynamixel_sdk

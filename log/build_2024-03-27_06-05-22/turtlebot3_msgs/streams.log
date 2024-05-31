@@ -1,0 +1,21 @@
+[0.015s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_msgs': /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs
+[0.034s] -- Configuring incomplete, errors occurred!
+[0.034s] See also "/home/phubadine/turtlebot3_ws/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".
+[0.034s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.034s]   By not providing "Findaction_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.034s]   has asked CMake to find a package configuration file provided by
+[0.034s]   "action_msgs", but CMake did not find one.
+[0.035s] 
+[0.035s]   Could not find a package configuration file provided by "action_msgs" with
+[0.035s]   any of the following names:
+[0.035s] 
+[0.035s]     action_msgsConfig.cmake
+[0.035s]     action_msgs-config.cmake
+[0.035s] 
+[0.035s]   Add the installation prefix of "action_msgs" to CMAKE_PREFIX_PATH or set
+[0.035s]   "action_msgs_DIR" to a directory containing one of the above files.  If
+[0.035s]   "action_msgs" provides a separate development package or SDK, be sure it
+[0.035s]   has been installed.
+[0.035s] 
+[0.035s] [0m
+[0.182s] Invoked command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs

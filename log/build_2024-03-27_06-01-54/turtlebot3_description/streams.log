@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_description': /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_description
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.224s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.397s] -- Detecting CXX compile features
+[0.398s] -- Detecting CXX compile features - done
+[0.410s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.411s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.411s]   has asked CMake to find a package configuration file provided by
+[0.411s]   "ament_cmake", but CMake did not find one.
+[0.411s] 
+[0.411s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.411s]   any of the following names:
+[0.411s] 
+[0.411s]     ament_cmakeConfig.cmake
+[0.411s]     ament_cmake-config.cmake
+[0.411s] 
+[0.411s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.411s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.412s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.412s]   has been installed.
+[0.412s] 
+[0.412s] [0m
+[0.413s] -- Configuring incomplete, errors occurred!
+[0.413s] See also "/home/phubadine/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".
+[0.415s] Invoked command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_description' returned '1': /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_description

@@ -1,0 +1,24 @@
+[0.576s] Invoking command in '/home/phubadine/turtlebot3_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs:/home/phubadine/turtlebot3_ws/install/turtlebot3:/home/phubadine/turtlebot3_ws/install/turtlebot3_simulations:/home/phubadine/turtlebot3_ws/install/turtlebot3_bringup:/home/phubadine/turtlebot3_ws/install/turtlebot3_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_navigation2:/home/phubadine/turtlebot3_ws/install/turtlebot3_fake_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_gazebo:/home/phubadine/turtlebot3_ws/install/turtlebot3_description:/home/phubadine/turtlebot3_ws/install/turtlebot3_cartographer:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_examples:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/phubadine/turtlebot3_ws/build/turtlebot3_example/build install --record /home/phubadine/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.792s] running egg_info
+[0.792s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.792s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.793s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.795s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.796s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.796s] running build
+[0.796s] running build_py
+[0.797s] running install
+[0.798s] running install_lib
+[0.799s] running install_data
+[0.800s] running install_egg_info
+[0.802s] removing '/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info' (and everything under it)
+[0.803s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[0.804s] running install_scripts
+[0.821s] Installing turtlebot3_obstacle_detection script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.821s] Installing turtlebot3_patrol_client script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.822s] Installing turtlebot3_patrol_server script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.822s] Installing turtlebot3_position_control script to /home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.822s] writing list of installed files to '/home/phubadine/turtlebot3_ws/build/turtlebot3_example/install.log'
+[0.851s] Invoked command in '/home/phubadine/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs:/home/phubadine/turtlebot3_ws/install/turtlebot3:/home/phubadine/turtlebot3_ws/install/turtlebot3_simulations:/home/phubadine/turtlebot3_ws/install/turtlebot3_bringup:/home/phubadine/turtlebot3_ws/install/turtlebot3_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_navigation2:/home/phubadine/turtlebot3_ws/install/turtlebot3_fake_node:/home/phubadine/turtlebot3_ws/install/turtlebot3_gazebo:/home/phubadine/turtlebot3_ws/install/turtlebot3_description:/home/phubadine/turtlebot3_ws/install/turtlebot3_cartographer:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_examples:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/phubadine/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/phubadine/turtlebot3_ws/build/turtlebot3_example/build install --record /home/phubadine/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

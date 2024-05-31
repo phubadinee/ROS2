@@ -1,0 +1,5 @@
+[1.074s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/phubadine/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/phubadine/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/phubadine/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.407s] running develop
+[1.408s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.408s]   warnings.warn(
+[1.625s] Removing /home/phubadine/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)

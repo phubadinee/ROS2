@@ -1,0 +1,1 @@
+Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_msgs': /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs

@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:32:
+  Parse error.  Expected "(", got unquoted argument with text
+  "lib/turtlebot3_navigation2".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

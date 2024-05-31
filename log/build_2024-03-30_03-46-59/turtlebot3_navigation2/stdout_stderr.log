@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:32:
+  Parse error.  Expected "(", got unquoted argument with text
+  "lib/turtlebot3_navigation2".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/phubadine/turtlebot3_ws/build/turtlebot3_navigation2/CMakeFiles/CMakeOutput.log".

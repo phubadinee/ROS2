@@ -1,0 +1,32 @@
+[0.014s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_msgs': /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_msgs
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.420s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.420s]   By not providing "Findaction_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.420s]   has asked CMake to find a package configuration file provided by
+[0.420s]   "action_msgs", but CMake did not find one.
+[0.420s] 
+[0.420s]   Could not find a package configuration file provided by "action_msgs" with
+[0.420s]   any of the following names:
+[0.421s] 
+[0.421s]     action_msgsConfig.cmake
+[0.421s]     action_msgs-config.cmake
+[0.421s] 
+[0.421s]   Add the installation prefix of "action_msgs" to CMAKE_PREFIX_PATH or set
+[0.421s]   "action_msgs_DIR" to a directory containing one of the above files.  If
+[0.421s]   "action_msgs" provides a separate development package or SDK, be sure it
+[0.421s]   has been installed.
+[0.421s] 
+[0.421s] [0m
+[0.421s] -- Configuring incomplete, errors occurred!
+[0.421s] See also "/home/phubadine/turtlebot3_ws/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,85 @@
+[0.046s] Invoking command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phubadine/turtlebot3_ws/install/turtlebot3_teleop:/home/phubadine/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_gazebo
+[0.062s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.282s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.307s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.307s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.307s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.308s]   problems in calling code that expects `find_package` result variables
+[0.308s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.308s] Call Stack (most recent call first):
+[0.308s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.308s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.308s]   CMakeLists.txt:23 (find_package)
+[0.308s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.308s] [0m
+[0.358s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.404s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.406s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.410s] -- Searching for dependencies of ignition-math6
+[0.412s] -- Looking for OGRE...
+[0.419s] -- Found Ogre Ghadamon (1.9.0)
+[0.420s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.431s] -- Looking for OGRE_Paging...
+[0.431s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.431s] -- Looking for OGRE_Terrain...
+[0.432s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.432s] -- Looking for OGRE_Property...
+[0.432s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.432s] -- Looking for OGRE_RTShaderSystem...
+[0.432s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.432s] -- Looking for OGRE_Volume...
+[0.432s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.433s] -- Looking for OGRE_Overlay...
+[0.433s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.679s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.679s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.680s] -- Searching for dependencies of ignition-transport8
+[0.710s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.727s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.734s] -- Checking for module 'libzmq >= 4'
+[0.755s] --   Found libzmq , version 4.3.4
+[0.815s] -- Checking for module 'uuid'
+[0.835s] --   Found uuid, version 2.37.2
+[0.885s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.886s] -- Searching for dependencies of ignition-msgs5
+[0.916s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.925s] -- Checking for module 'tinyxml2'
+[0.949s] --   Found tinyxml2, version 9.0.0
+[1.004s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.005s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.005s] -- Searching for dependencies of ignition-common3
+[1.006s] -- Looking for dlfcn.h - found
+[1.006s] -- Looking for libdl - found
+[1.019s] -- Searching for <ignition-common3> component [graphics]
+[1.020s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.020s] -- Searching for dependencies of ignition-common3-graphics
+[1.021s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.022s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.022s] -- Searching for dependencies of ignition-fuel_tools4
+[1.092s] -- Checking for module 'jsoncpp'
+[1.116s] --   Found jsoncpp, version 1.9.5
+[1.176s] -- Checking for module 'libzip'
+[1.195s] --   Found libzip, version 1.7.3
+[1.245s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.246s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.246s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.266s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[1.266s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[1.267s]   project has asked CMake to find a package configuration file provided by
+[1.267s]   "gazebo_ros_pkgs", but CMake did not find one.
+[1.267s] 
+[1.267s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[1.267s]   with any of the following names:
+[1.268s] 
+[1.269s]     gazebo_ros_pkgsConfig.cmake
+[1.269s]     gazebo_ros_pkgs-config.cmake
+[1.269s] 
+[1.269s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[1.269s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[1.269s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[1.269s]   sure it has been installed.
+[1.269s] 
+[1.270s] [0m
+[1.270s] -- Configuring incomplete, errors occurred!
+[1.270s] See also "/home/phubadine/turtlebot3_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[1.604s] Invoked command in '/home/phubadine/turtlebot3_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phubadine/turtlebot3_ws/install/turtlebot3_teleop:/home/phubadine/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/phubadine/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/phubadine/turtlebot3_ws/install/turtlebot3_gazebo

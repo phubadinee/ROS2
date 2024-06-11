@@ -1,0 +1,24 @@
+[0.514s] Invoking command in '/home/phubadine/aexotic_ws/src/mypkg': PYTHONPATH=/home/phubadine/aexotic_ws/build/mypkg/prefix_override:/home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/phubadine/aexotic_ws/build/mypkg/build install --record /home/phubadine/aexotic_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[0.707s] running egg_info
+[0.707s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.707s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.707s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.708s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.708s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.709s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.709s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.710s] running build
+[0.710s] running build_py
+[0.710s] running install
+[0.710s] running install_lib
+[0.711s] running install_data
+[0.711s] running install_egg_info
+[0.713s] removing '/home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.713s] Copying ../../build/mypkg/mypkg.egg-info to /home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.714s] running install_scripts
+[0.730s] Installing first_publisher script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[0.730s] Installing first_subscription script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[0.730s] Installing twist_publisher script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[0.730s] Installing twist_subscription script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[0.731s] writing list of installed files to '/home/phubadine/aexotic_ws/build/mypkg/install.log'
+[0.751s] Invoked command in '/home/phubadine/aexotic_ws/src/mypkg' returned '0': PYTHONPATH=/home/phubadine/aexotic_ws/build/mypkg/prefix_override:/home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/phubadine/aexotic_ws/build/mypkg/build install --record /home/phubadine/aexotic_ws/build/mypkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.791s] Invoking command in '/home/phubadine/aexotic_ws/src/mypkg': PYTHONPATH=/home/phubadine/aexotic_ws/build/mypkg/prefix_override:/home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/phubadine/aexotic_ws/build/mypkg/build install --record /home/phubadine/aexotic_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[1.064s] running egg_info
+[1.065s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.065s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.065s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.065s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.065s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.067s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.074s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.074s] running build
+[1.074s] running build_py
+[1.074s] copying mypkg/turtle_control.py -> /home/phubadine/aexotic_ws/build/mypkg/build/lib/mypkg
+[1.074s] running install
+[1.074s] running install_lib
+[1.075s] copying /home/phubadine/aexotic_ws/build/mypkg/build/lib/mypkg/turtle_control.py -> /home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.076s] byte-compiling /home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages/mypkg/turtle_control.py to turtle_control.cpython-310.pyc
+[1.077s] running install_data
+[1.077s] running install_egg_info
+[1.080s] removing '/home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.080s] Copying ../../build/mypkg/mypkg.egg-info to /home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.081s] running install_scripts
+[1.102s] Installing first_publisher script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[1.102s] Installing first_subscription script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[1.103s] Installing twist_publisher script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[1.103s] Installing twist_subscription script to /home/phubadine/aexotic_ws/install/mypkg/lib/mypkg
+[1.103s] writing list of installed files to '/home/phubadine/aexotic_ws/build/mypkg/install.log'
+[1.128s] Invoked command in '/home/phubadine/aexotic_ws/src/mypkg' returned '0': PYTHONPATH=/home/phubadine/aexotic_ws/build/mypkg/prefix_override:/home/phubadine/aexotic_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/phubadine/aexotic_ws/build/mypkg/build install --record /home/phubadine/aexotic_ws/build/mypkg/install.log --single-version-externally-managed install_data

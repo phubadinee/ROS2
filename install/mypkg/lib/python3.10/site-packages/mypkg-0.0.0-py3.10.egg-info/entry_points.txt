@@ -1,0 +1,7 @@
+[console_scripts]
+first_publisher = mypkg.first_node:main
+first_subscription = mypkg.first_sub:main
+turtlebot_control = mypkg.turtlebot_control:main
+twist_publisher = mypkg.twist_pub:main
+twist_subscription = mypkg.twist_sub:main
+
